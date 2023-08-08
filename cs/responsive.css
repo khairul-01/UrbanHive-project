@@ -15,4 +15,14 @@
       width: 100%;
       text-align: center;
    }
+   .banner-section{
+      flex-direction: column;
+      gap: 20px;
+   }
+   .banner-text{
+      width: 100%;
+   }
+   .banner-img{
+      width: 100%;
+   }
 }
