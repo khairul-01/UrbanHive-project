@@ -1,0 +1,18 @@
+@media screen and (max-width:400px) {
+   .navContainer{
+      flex-direction: column;
+      font-size: 20px;
+   }
+   .nav-item-container{
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+   }
+   .logo-container{
+      justify-content: center;
+   }
+   .btn{
+      width: 100%;
+      text-align: center;
+   }
+}
