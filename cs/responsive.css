@@ -31,4 +31,11 @@
    .product-container {
       grid-template-columns: repeat(1, 1fr);
    }
+   /* Discount section start here */
+   .offer-container{
+      flex-direction: column;
+   }
+   .offer-img, .offer-descr{
+      width: 100%;
+   }
 }

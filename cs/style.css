@@ -137,3 +137,52 @@ nav{
    align-items: center;
 }
 /* Products section design end here */
+
+/* Discount section start here */
+.offer-buy{
+   background-color: #9376E0;
+}
+.offer-container{
+   max-width: 1400px;
+   margin: 50px auto 0px;
+   display: flex;
+   align-items: center;
+   padding: 80px 5px;
+   gap: 50px;
+   min-height: 200px;
+}
+.offer-img{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+.offer-img > img{
+   width: 80%;
+}
+.discount-percent{
+   padding: 30px;
+   background-color: yellowgreen;
+   border-radius: 50%;
+   position: absolute;
+   right: 20%;
+   top: 2%;
+   font-size: 20px;
+}
+.offer-descr{
+   width: 50%;
+}
+.offer-descr > button {
+   padding: 8px 15px;
+   font-size: 20px;
+   background-color: #9376E0;
+   border-radius: 10px;
+}
+/* Discount section end here */
+
+/* Customer review section start here */
+.customer-section{
+   max-width: 1400px;
+   
+}
+/* Customer review section end here */
