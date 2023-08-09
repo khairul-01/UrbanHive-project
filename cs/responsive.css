@@ -1,4 +1,5 @@
 @media screen and (max-width:400px) {
+   /* Navbar section start here */
    .navContainer{
       flex-direction: column;
       font-size: 20px;
@@ -15,6 +16,7 @@
       width: 100%;
       text-align: center;
    }
+   /* Banner section start here */
    .banner-section{
       flex-direction: column;
       gap: 20px;
@@ -24,5 +26,9 @@
    }
    .banner-img{
       width: 100%;
+   }
+   /* All product start here */
+   .product-container {
+      grid-template-columns: repeat(1, 1fr);
    }
 }
