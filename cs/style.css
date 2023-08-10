@@ -37,7 +37,7 @@ nav{
 .nav-item-container{
    width: 50%;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
 }
 .nav-item-container a{
@@ -246,5 +246,9 @@ footer{
 }
 .footer-logo img{
    width: 50px;
+}
+.footer-logo h3{
+   font-size: 30px;
+   color: white;
 }
 /* footer sectin end here  */
