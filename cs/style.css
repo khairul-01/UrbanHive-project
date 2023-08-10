@@ -166,7 +166,6 @@ nav{
    border-radius: 50%;
    position: absolute;
    right: 20%;
-   top: 2%;
    font-size: 20px;
 }
 .offer-descr{
@@ -183,6 +182,25 @@ nav{
 /* Customer review section start here */
 .customer-section{
    max-width: 1400px;
-   
+}
+.review-container{
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.review{
+   background-color: #E893CF;
+   padding: 8px;
+   border-radius: 10px;
+   flex-basis: 300px;
+}
+.customer-profile{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.customer-profile img{
+   width: 20%;
 }
 /* Customer review section end here */
