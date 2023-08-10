@@ -136,6 +136,24 @@ nav{
    justify-content: space-between;
    align-items: center;
 }
+.shopCard{
+   background-color: #E893CF;
+   padding: 10px;
+   border-radius: 50%;
+   margin: 1px;
+}
+.creditCard{
+   background-color: green;
+   padding: 10px;
+   border-radius: 50%;
+   margin: 1px;
+}
+.eye{
+   background-color: #9376E0;
+   padding: 10px;
+   border-radius: 50%;
+   margin: 1px;
+}
 /* Products section design end here */
 
 /* Discount section start here */
@@ -182,11 +200,18 @@ nav{
 /* Customer review section start here */
 .customer-section{
    max-width: 1400px;
+   margin: 50px auto 0;
+}
+.customer-title{
+   text-align: center;
+   font-size: 36px;
+   margin-bottom: 30px;
 }
 .review-container{
    display: flex;
    gap: 10px;
    justify-content: center;
+   align-content: center;
    flex-wrap: wrap;
 }
 .review{
@@ -204,3 +229,22 @@ nav{
    width: 20%;
 }
 /* Customer review section end here */
+
+/* footer sectin start here  */
+footer{
+   background-color: #9376E0;
+   margin-top: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 400px;
+}
+.footer-logo{
+   display: flex;
+   align-items: center;
+}
+.footer-logo img{
+   width: 50px;
+}
+/* footer sectin end here  */
